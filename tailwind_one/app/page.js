@@ -89,15 +89,54 @@ export default function Home() {
                         </div>
                         <br></br>
                         <div className="flex flex-col md:flex-row">
-                             <div className = "flex flex-row  mt-10 rounded-[30px] bg-black shadow-lg p-4 min-h-30 ml-20 mr-20">
-                                <div className = "text-white text-[30px] font-bold pl-20 pt-6">Dropbox</div>
-                                <div className = "text-white text-[30px] font-bold  pl-30 pt-6">Spotify</div>
-                                <div className = "text-white text-[30px] font-bold  pl-30 pt-6">GIZMODO</div>
-                                <div className = "text-white text-[30px] font-bold  pl-30 pt-6">coinbase</div>
-                                <div className = "text-white text-[30px] font-bold  pl-30 pr-20 pt-6 mb-10">slack</div>
-                             </div>
+                                <div className = "flex flex-row  mt-10 rounded-[30px] bg-black shadow-lg p-4 min-h-30 ml-20 mr-20">
+                                        <div className = "text-white text-[30px] font-bold pl-20 pt-6">Dropbox</div>
+                                        <div className = "text-white text-[30px] font-bold  pl-30 pt-6">Spotify</div>
+                                        <div className = "text-white text-[30px] font-bold  pl-30 pt-6">GIZMODO</div>
+                                        <div className = "text-white text-[30px] font-bold  pl-30 pt-6">coinbase</div>
+                                        <div className = "text-white text-[30px] font-bold  pl-30 pr-20 pt-6 mb-10">slack</div>
+                                </div>
                         </div>
                     </section>
+                        <br></br>
+                     <div>
+                            <div className = "pt-30">
+                                <div className = "text-red-500 text-[20px] flex-flex-col ml-20 pb-[20px] font-mono font-bold">Latest Gallery</div>
+                                <div className = "text-black text-[40px] flex-flex-col ml-20 pb-[5px] font-sans font-bold">Quality Service, Every Time</div>                               
+                                <div className = "text-black text-[40px] flex-flex-col ml-20 pb-[50px] font-sans font-bold">Drive Safe Stay Secure</div>
+                                    <div className = "flex flex-col">
+                                        <div className = "flex flex-row flex-wrap align-self">
+                                            <img
+                                            src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-1.jpg"
+                                            className = " w-[400px] h-[300px] rounded-[20px] ml-20 mb-10 "
+                                            />
+                                            <img
+                                            src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-2.jpg"
+                                            className = " w-[400px] h-[200px] rounded-[20px] ml-10 "
+                                            />
+                                            <img
+                                            src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-3.jpg"
+                                            className = " w-[400px] h-[300px] rounded-[20px] ml-15 mb-10 "
+                                            />
+                                                
+                                                <img
+                                                src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-4.jpg"
+                                                className = " w-[400px] h-[300px] rounded-[20px] ml-20 mb-10 "
+                                                />
+                                                <img
+                                                src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-5.jpg"
+                                                className = " w-[400px] h-[450px] rounded-[20px]  ml-10 mb-60 "
+                                                />
+                                                <img
+                                                src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-6.jpg"
+                                                className = " w-[430px] h-[300px] rounded-[20px] ml-10 mb-10 "
+                                                />
+                                            </div>
+
+                                    </div>    
+                            </div>
+                            
+                     </div>
         </div>
     </div>
 }
