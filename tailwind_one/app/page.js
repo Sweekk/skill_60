@@ -15,23 +15,23 @@ export default function Home() {
                         <div className = "hidden md:block text-white pl-5 pt-3.5 ">Pages</div>
                         <div className = "hidden md:block text-white pl-5 pt-3.5 ">Blog</div>
                         <div className = "hidden md:block text-white pl-5 pt-3.5 ">Contact</div>
-                        <div className = "hidden md:block ml-10 pl- 5 bg-white rounded-full h-[50px] w-[50px]"><div className="pl-5 pt-3 text-red-500">F</div></div>
-                        <div className = "hidden md:block ml-10 pl- 5 bg-white rounded-full h-[50px] w-[50px]"><div className="pl-5 pt-3 text-red-500">W</div></div>
-                        <div className = "hidden md:block ml-10 pl- 5 bg-white rounded-full h-[50px] w-[50px]"><div className="pl-5 pt-3 text-red-500">I</div></div>
-                        <div className = "hidden md:block ml-10 pl- 5 bg-white rounded-full h-[50px] w-[50px]"><div className="pl-5 pt-3 text-red-500">T</div></div>
+                        <div className = "hidden md:flex ml-10 bg-white rounded-full h-[50px] w-[50px] items-center justify-center hover:bg-gradient-to-r from-emerald-600 to-lime-300"><div className="text-red-500">F</div></div>
+                        <div className = "hidden md:flex ml-10 bg-white rounded-full h-[50px] w-[50px] items-center justify-center hover:bg-gradient-to-r from-emerald-600 to-lime-300"><div className="text-red-500">W</div></div>
+                        <div className = "hidden md:flex ml-10 bg-white rounded-full h-[50px] w-[50px] items-center justify-center hover:bg-gradient-to-r from-emerald-600 to-lime-300"><div className="text-red-500">I</div></div>
+                        <div className = "hidden md:flex ml-10 bg-white rounded-full h-[50px] w-[50px] items-center justify-center hover:bg-gradient-to-r from-emerald-600 to-lime-300"><div className="text-red-500">T</div></div>
                     </div>    
             </section>
-            <div className = "flex flex-col md:flex-row">   
-             <div className = "font-bold text-[50px] ml-15 pr-20 w-[45%] mt-20"> Where Quality Is A Service Meets The Open Road</div>
-                 <div> 
+            <div className = "grid grid-cols-2 gap-1 ">
+                <div className = "flex flex-col pl-10">
+                    <div className = "font-bold text-[50px] col-span-1 row-span-2 mt-20 w-[70%]"> Where Quality Is A Service Meets The </div><br></br>
+                    <div className = "font-bold text-[50px] text-red-500">  Open Road  </div>
+                </div>
+                <div className = "row-span-1 col-span-1">
                     <img
                     src="https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-1.jpg"
-                    className = "flex flex-col md:flex-row rounded-[50px] mt-20 mb-10 h-[80%] w-[60%] ml-40 "
+                    className = " rounded-[30px] mt-10 w-[80%] h-[90%] ml-20 "
                     />
-              </div>
-                </div>  
-                  <div className = "flex flex-col">
-                     <div className = "text-white ml-15 text-lg w-[35%]" >Car maintainance is essential to keep the performance of the car at all time high</div>
+                </div>
                  <div className = "text-white border-4 border-red-600 rounded-full h-[70px] w-[200px] text-center pt-4 ml-15 font-bold text-[20px] ">
                     Get Started
                 </div>
