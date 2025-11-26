@@ -7,9 +7,9 @@ import {
   updateProfile,
 } from "firebase/auth"
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from "firebase/firestore"
-
+const apiKey = process.env.API_KEY;
 const firebaseConfig = {
-  apiKey: "AIzaSyBgmh1_zDylH67OUqitqg02GSx0zwGrvCg",
+  apikey: apiKey,
   authDomain: "assignment-3-f95cf.firebaseapp.com",
   projectId: "assignment-3-f95cf",
   storageBucket: "assignment-3-f95cf.firebasestorage.app",
@@ -67,6 +67,3 @@ export async function getUserDocument(uid) {
   return snap.exists() ? snap.data() : null
 }
 
-// Example usage in your page:
-//   const userCred = await signUp(email, password)
-//   await setDisplayName(name)
